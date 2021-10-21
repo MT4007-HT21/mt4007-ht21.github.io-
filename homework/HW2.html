@@ -180,7 +180,7 @@ pre code {
 </ul>
 <div id="deadline" class="section level4">
 <h4>Deadline</h4>
-<p>Deadline for the homework is <strong>2020-11-15 at 23.59</strong>. Submission occurrs as usual by creating a new issue with the title “HW2 ready for grading!” in your repository. Your peer review will be assigned on <strong>2020-11-16 and is due 2020-11-18 at 12:00</strong>.</p>
+<p>Deadline for the homework is <strong>2021-11-14 at 23.59</strong>. Submission occurrs as usual by creating a new issue with the title “HW2 ready for grading!” in your repository. Your peer review will be assigned on <strong>2021-11-15 and is due 2021-11-16 at 12:00</strong>.</p>
 </div>
 </div>
 </div>
@@ -203,15 +203,15 @@ pre code {
 </div>
 <div id="exercise-2-folkhälsomyndigheten-covid-cases-and-why-excel-might-not-be-your-friend" class="section level2">
 <h2>Exercise 2: Folkhälsomyndigheten COVID cases and <a href="https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england">why excel might not be your friend</a></h2>
-<p>The file <a href="https://github.com/mt5013-ht20/HW_data/blob/master/"><code>HW_data/Folkhalsomyndigheten_Covid19.xlsx</code></a> contains data on COVID cases in Sweden. The data was obtained through <a href="https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/">Folkhälsomyndigheten’s webpage</a> on the 1st of October. Due to the fact that we downloaded it manually on a specific date, reproducability might be an issue since COVID cases might be updated.</p>
+<p>The file <a href="https://github.com/mt5013-ht20/HW_data/blob/master/"><code>HW_data/Folkhalsomyndigheten_Covid19.xlsx</code></a> contains data on COVID cases in Sweden. The data was obtained through <a href="https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/">Folkhälsomyndigheten’s webpage</a> on the 1st of October 2020. Due to the fact that we downloaded it manually on a specific date, reproducability might be an issue since COVID cases might be updated.</p>
 <div id="tasks-1" class="section level3">
 <h3>Tasks</h3>
-<p>Answer the listed questions below. Statements listened as “Bonus points” are optional for those interested but not mandatory.</p>
+<p>Answer the listed questions below.</p>
 <div id="data-wrangling" class="section level4">
 <h4>Data wrangling</h4>
 <ol style="list-style-type: lower-alpha">
 <li>Open the .xlsx file in any way of your choosing and have a look at the numbers. What does the file contain and what does the data represent? Use the <a href="https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/">Folkhälsomyndigheten’s webpage</a> to gather the necessary information. Declare what information is in which sheet. Depending on your OS and how you opened the file to begin with, you might get some info of the sheets using the function <code>excel_sheets</code>.</li>
-<li>From the <code>readxl</code> package, use an appropriate <code>read_*</code> function to read all sheets in the .xlsx file and store them as tibbles (data.frames). Bonus points for a one-line solution. The <code>read_*</code>function will be simply referred to as the “read function” in the coming questions. <em>When you read these sheets, you should see a lot of warning messages</em>. We will investigate those in the coming questions.</li>
+<li>From the <code>readxl</code> package, use an appropriate <code>read_*</code> function to read all sheets in the .xlsx file and store them as tibbles (data.frames). The <code>read_*</code>function will be simply referred to as the “read function” in the coming questions. <em>When you read these sheets, you should see a lot of warning messages</em>. We will investigate those in the coming questions.</li>
 <li>Display the first and the last five rows of the second sheet called “Antal avlidna per dag” using <code>knitr::kable</code> and <code>head</code>. What are the column names? Does anything seem strange? Using the argument <code>n_max</code> in the read function, remove the last row.</li>
 <li>In the sheet corresponding to “Veckodata Kommun_stadsdel” look at the columns and their types. What type has your <code>read_*</code> function parsed for the column <code>Statsdel</code>? Read the documentation and the appropriate function, give an explanation to why this happens and how to fix it.</li>
 <li>In the same sheet there are two columns called <code>tot_antal_fall</code> and <code>nya_fall_vecka</code>. What is the type of these variables and why has it been parsed as such? Correct these (in some way) such that these become numeric variables.</li>
@@ -227,6 +227,19 @@ pre code {
 </ol>
 </div>
 </div>
+</div>
+<div id="peer-review" class="section level2">
+<h2>Peer review</h2>
+<p>After deadline has passed, you will be given access to another students repository on GitHub. You should provide summary feedback by responding to the “HW2 ready for grading!” issue. Copy the following checklist and use it in your review:</p>
+<pre><code>* Is the homework complete, e.g. are all questions in the homework answered?
+
+* Is there a working link from the main repository `README.md` to `HW2.md`?
+
+* Is any code showing? If yes, is there any text about it?
+
+* Do the Figures have proper axis names, do you understand them?
+
+* Did you get any different results in your submission?</code></pre>
 </div>
 
 

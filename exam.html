@@ -273,7 +273,25 @@ $(document).ready(function () {
 </div>
 
 
-<p>An electronic exam, 1.5 hp, is scheduled on <strong>2021-12-22</strong>. This will test basic skills in using the tools introduced in the course and involves live coding in an RStudio environment, without internet access. During the exam, you will have access to the following cheat sheets in paper form (list may be updated before exam):</p>
+<p>An electronic exam, 1.5 hp, is scheduled on <strong>2021-12-22</strong>. It will be a open book home exam and its allowed to use google. We reserve the right to conduct an oral exam after the exam, e.g. when we are correcting the exam. If you are subject to the oral exam, you will need to describe your code, what it does and why you chose to solve the question(s) the way you did. This will test your skills in using the tools introduced in the course and involves live coding in an RStudio environment with internet access. Here is some further information</p>
+<ol style="list-style-type: decimal">
+<li>There will be four questions, at least one of them will be from the class questions listed below.</li>
+<li>The exam will be available on Github on the 22/12 12:00 which you will then download (however you choose to).</li>
+<li><strong>You hand in your exam answers (code and accompanying text) by mailing your .Rmd containing text and your solutions to the questions to my (Erik) email. It is on the course webpage.</strong></li>
+</ol>
+<p>List of questions from the class questions which might appear in the exam:</p>
+<ul>
+<li>Day 2-3: All exercises (and/or sections thereof)</li>
+<li>Day 4: systembolaget, winter medals</li>
+<li>Day 5: all exercises</li>
+<li>Day 6: all exercises</li>
+<li>Day 7: all exercises</li>
+<li>Day 9: A csv-reader, Motions of the Riksdag, Sentiment of the people of Hemsö</li>
+</ul>
+<p>Use the following set of code to verify that you have the appropriate packages installed.</p>
+<pre><code>lib_list &lt;- c(&quot;tidyverse&quot;,&quot;rmarkdown&quot;, &quot;knitr&quot;, &quot;DBI&quot;, &quot;RSQLite&quot;, &quot;rebus&quot;, &quot;jsonlite&quot;,&quot;xml2&quot;, &quot;lubridate&quot;, &quot;readxl&quot;)
+purrr::walk(lib_list, library, character.only = TRUE)</code></pre>
+<p>Here are some good cheat cheets for easy access to the information.</p>
 <ul>
 <li><a href="https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf">R Markdown Cheat Sheet</a></li>
 <li><a href="https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf">Data Visualization Cheat Sheet</a></li>
@@ -282,7 +300,6 @@ $(document).ready(function () {
 <li><a href="https://github.com/rstudio/cheatsheets/raw/master/strings.pdf">Working with Strings Cheat Sheet</a></li>
 <li><a href="http://files.zeroturnaround.com/pdf/zt_sql_cheat_sheet.pdf">SQL Cheat Sheet</a></li>
 </ul>
-<p>Your RSTudio environment will have access to the following libraries: <code>tidyverse</code> (e.g. <code>dplyr</code>, <code>tidyr</code>, <code>readr</code>, <code>stringr</code>), <code>rmarkdown</code>, <code>knitr</code>, <code>DBI</code>, <code>rsqlite</code>, <code>rebus</code>, <code>jsonlite</code>, <code>listviewer</code>, <code>xml2</code>.</p>
 <div id="re-exam" class="section level2">
 <h2>Re-exam</h2>
 <p>The re-exam is scheduled in February <strong>2022</strong>.</p>
@@ -290,6 +307,7 @@ $(document).ready(function () {
 <div id="old-exams" class="section level2">
 <h2>Old exams</h2>
 <p><a href="https://github.com/mt5013-ht19/Exam_20180227">Exam 2018-02-27</a> (in Swedish - link works only, if already logged into github)</p>
+<p>TBA</p>
 </div>
 
 

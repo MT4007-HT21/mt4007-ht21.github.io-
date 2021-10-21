@@ -1,6 +1,10 @@
 ---
 title: "Individual homework (3 hp, grade: PASS/FAIL)"
-output: html_document
+output:
+  html_document:
+    self_contained: true
+    toc: false
+    toc_depth: 2
 editor_options: 
   chunk_output_type: console
 ---

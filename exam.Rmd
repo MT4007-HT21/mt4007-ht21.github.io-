@@ -1,10 +1,35 @@
 ---
 title: "Electronic exam (1.5 hp, betyg A-F)"
-output: html_document
+output:
+  html_document:
+    self_contained: true
+    toc: false
+    toc_depth: 2
 ---
 
-An electronic exam,  1.5 hp, is scheduled on  **2021-12-22**. This will test basic skills in using the tools introduced in the course and involves live coding in an RStudio environment, without internet access. During the exam, you will have access to the following cheat sheets in paper form (list may be updated before exam):
+An electronic exam,  1.5 hp, is scheduled on  **2021-12-22**. It will be a open book home exam and its allowed to use google. We reserve the right to conduct an oral exam after the exam, e.g. when we are correcting the exam. If you are subject to the oral exam, you will need to describe your code, what it does and why you chose to solve the question(s) the way you did. This will test your skills in using the tools introduced in the course and involves live coding in an RStudio environment with internet access. Here is some further information
 
+1. There will be four questions, at least one of them will be from the class questions listed below.
+2. The exam will be available on Github on the 22/12 12:00 which you will then download (however you choose to). 
+3. **You hand in your exam answers (code and accompanying text) by mailing your .Rmd containing text and your solutions to the questions to my (Erik) email. It is on the course webpage.**
+
+List of questions from the class questions which might appear in the exam:
+
+* Day 2-3: All exercises (and/or sections thereof)
+* Day 4: systembolaget, winter medals
+* Day 5: all exercises
+* Day 6: all exercises
+* Day 7: all exercises
+* Day 9: A csv-reader, Motions of the Riksdag, Sentiment of the people of Hemsö
+
+Use the following set of code to verify that you have the appropriate packages installed.
+
+```
+lib_list <- c("tidyverse","rmarkdown", "knitr", "DBI", "RSQLite", "rebus", "jsonlite","xml2", "lubridate", "readxl")
+purrr::walk(lib_list, library, character.only = TRUE)
+```
+
+Here are some good cheat cheets for easy access to the information.
 
 * [R Markdown Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
 * [Data Visualization Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
@@ -13,8 +38,6 @@ An electronic exam,  1.5 hp, is scheduled on  **2021-12-22**. This will test bas
 * [Working with Strings Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/strings.pdf)
 * [SQL Cheat Sheet](http://files.zeroturnaround.com/pdf/zt_sql_cheat_sheet.pdf)
 
-Your RSTudio environment will have access to the following libraries:
-`tidyverse` (e.g. `dplyr`, `tidyr`, `readr`, `stringr`), `rmarkdown`, `knitr`, `DBI`, `rsqlite`, `rebus`, `jsonlite`, `listviewer`, `xml2`.
 
 ## Re-exam
 
@@ -23,3 +46,5 @@ The re-exam is scheduled in February **2022**.
 ## Old exams
 
 [Exam 2018-02-27](https://github.com/mt5013-ht19/Exam_20180227) (in Swedish - link works only, if already logged into github)
+
+TBA

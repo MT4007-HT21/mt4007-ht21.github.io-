@@ -1,5 +1,10 @@
 ---
 title: "Welcome to MT4007, Statistical Data Processing"
+output:
+  html_document:
+    self_contained: true
+    toc: false
+    toc_depth: 2
 ---
 
 This is the course web-site for Statistical Data Processing [MT4007](https://sisu.it.su.se/search/archive_info/MT4007) (previously called [MT5013](https://sisu.it.su.se/search/archive_info/MT5013)) at the [department of Mathematics](http://www.math.su.se/), [Stockholm University](http://www.su.se/). The course gives and introduction to obtaining, wrangling, exploring and visualising data using R. Main litterature will be the book [R for Data Science](http://r4ds.had.co.nz/index.html) by Grolemund and Wickham complemented by courses from [DataCamp](https://www.datacamp.com/home).

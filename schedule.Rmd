@@ -1,5 +1,10 @@
 ---
 title: "Schedule HT19"
+output:
+  html_document:
+    self_contained: true
+    toc: false
+    toc_depth: 2
 editor_options: 
   chunk_output_type: console
 ---
@@ -34,9 +39,9 @@ topics <- c(
     "[Web-scraping: Basic rvest.](class_instructions/day11.html)",
     "[R Programming: Programming with functions.](class_instructions/day12.html)<br>",
     "[R Programming: Functional programming with purrr.](class_instructions/day13.html)",
-    "",
-    "Exam.",
-    "Re-exam",
+    "Preparation for exam and project work!",
+    "Preparation for exam and project work!",
+    "Exam",
     "Project presentation.")
 
 ##
@@ -59,7 +64,7 @@ topics <- remove_url_from_topics(topics, from_lecture_number=from_lecture_number
 ```
 
 ```{r TIMEEDIT, echo = FALSE, message=FALSE, warning=FALSE, results="asis"}
-cat(paste0("<p>The schedule of the MT5013 HT2019 course is automatically fetched from [TimeEdit](",stringr::str_replace(TimeEdit_URL,"\\.json",""),").<br><br></p>"))
+cat(paste0("<p>The schedule of the MT4007 HT21 course is automatically fetched from [TimeEdit](",stringr::str_replace(TimeEdit_URL,"\\.json",""),").<br><br></p>"))
 ```
 ```{r KABLESCHEDULE, echo = FALSE}
 kable(data.frame(Lecture = c(seq_len(length(topics)-3),rep("",2),"15"), Day = paste(datum$veckodag, datum$startdate, sep = ", "), Time = datum$tid, Topic = topics))

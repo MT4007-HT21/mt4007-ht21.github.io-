@@ -34,7 +34,7 @@ topics <- c(
     "[Relational data: Combining tables with dplyr joins.](class_instructions/day6.html) <br>",
         "[Relational data: SQL basics](class_instructions/day7.html).",
     "**Lecture**: Principles of visualisation. [[Slides](slides/slide14.html)]",
-    "[Text data: Regular expressions.<br>09:15-10:00 Guest lecture: Benjamin Allévius, King](class_instructions/day9.html)",
+    "[Text data: Regular expressions.<br>08:45-10:00 Guest lecture: Benjamin Allévius, King](class_instructions/day9.html)",
     "[Using APIs: httr, JSON and XML.](class_instructions/day10.html)",
     "[Web-scraping: Basic rvest.](class_instructions/day11.html)",
     "[R Programming: Programming with functions.](class_instructions/day12.html)<br>",

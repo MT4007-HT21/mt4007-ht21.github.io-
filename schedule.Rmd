@@ -10,8 +10,7 @@ editor_options:
 ---
 
 Note that "Handledning" starts at **09:30**! 
-On Mondays you will have your peer review assigned, please do that the first hour. On Thursdays, you will either need to 
-work with resubmissions of your hand in or by yourself.
+On Mondays you will have your peer review assigned, please do that the first hour. On Thursdays, you will either need to work with resubmissions of your hand in or by yourself.
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```

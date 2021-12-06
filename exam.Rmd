@@ -11,7 +11,7 @@ An electronic exam,  1.5 hp, is scheduled on  **2021-12-22**. It will be a open 
 
 1. There will be four questions, at least one of them will be from the class questions listed below.
 2. The exam will be available on Github on the 22/12 12:00 which you will then download (however you choose to). 
-3. **You hand in your exam answers (code and accompanying text) by mailing your .Rmd containing text and your solutions to the questions to my (Erik) email. It is on the course webpage.**
+3. **You hand in your exam answers in a .Rmd (code and accompanying text) through [this link](https://kurser.math.su.se/mod/assign/view.php?id=71192).**
 
 List of questions from the class questions which might appear in the exam:
 
@@ -41,10 +41,8 @@ Here are some good cheat cheets for easy access to the information.
 
 ## Re-exam
 
-The re-exam is scheduled in February **2022**.
+The re-exam is scheduled in February **9/2 2022 12:00-16:00**.
 
-## Old exams
+## [Old exams can be found here](https://github.com/MT4007-HT21/old_exams)
 
-[Exam 2018-02-27](https://github.com/mt5013-ht19/Exam_20180227) (in Swedish - link works only, if already logged into github)
-
-TBA
+Only a few of the exams have solutions to them.

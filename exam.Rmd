@@ -29,14 +29,7 @@ lib_list <- c("tidyverse","rmarkdown", "knitr", "DBI", "RSQLite", "rebus", "json
 purrr::walk(lib_list, library, character.only = TRUE)
 ```
 
-Here are some good cheat cheets for easy access to the information.
-
-* [R Markdown Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
-* [Data Visualization Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
-* [Data Transformation Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
-* [Data Import Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf)
-* [Working with Strings Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/strings.pdf)
-* [SQL Cheat Sheet](http://files.zeroturnaround.com/pdf/zt_sql_cheat_sheet.pdf)
+Here are some good [cheat cheets](https://www.rstudio.com/resources/cheatsheets/) for easy access to information. Note that there are sheets with information that we do not cover in this course. Here is one on [SQL](http://files.zeroturnaround.com/pdf/zt_sql_cheat_sheet.pdf).
 
 
 ## Re-exam

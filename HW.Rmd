@@ -24,6 +24,6 @@ HW <- c(
     "[HW6: Nobel prize winning project](homework/HW6.html)",
     "[HW7: Cleanup!](homework/HW7.html)"
 )
-deadline <- seq(as.Date("2021/11/07"), by = "week", length.out = 6)
+deadline <- c(seq(as.Date("2021/11/07"), by = "week", length.out = 6), "2022-03-31")
 knitr::kable(data.frame(Homework = HW, Deadline = deadline))
 ```
